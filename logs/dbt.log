@@ -1,0 +1,163 @@
+
+
+============================== 16:46:49.876366 | 53ca2d51-10cb-4371-a79f-115f39e53191 ==============================
+[0m16:46:49.876366 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:46:49.888997 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\caiov\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init dbt_project01', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:46:49.892089 [debug] [MainThread]: Starter project path: c:\users\caiov\onedrive - ucla it services\documentos\datascience\repositories\my-first-dbt-project\dbt-env\lib\site-packages\dbt\include\starter_project
+[0m16:46:49.923234 [info ] [MainThread]: 
+Your new dbt project "dbt_project01" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:46:49.925189 [info ] [MainThread]: Setting up your profile.
+[0m17:09:30.711067 [info ] [MainThread]: Profile dbt_project01 written to C:\Users\caiov\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:09:30.714134 [debug] [MainThread]: Command `dbt init` succeeded at 17:09:30.713068 after 1360.88 seconds
+[0m17:09:30.714134 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:35:55.425861 | a007e690-851d-4e74-b6c6-7037ed7057ba ==============================
+[0m17:35:55.425861 [info ] [MainThread]: Running with dbt=1.7.7
+[0m17:35:55.430868 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\caiov\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m17:35:55.432376 [info ] [MainThread]: dbt version: 1.7.7
+[0m17:35:55.433400 [info ] [MainThread]: python version: 3.9.0
+[0m17:35:55.434400 [info ] [MainThread]: python path: c:\users\caiov\onedrive - ucla it services\documentos\datascience\repositories\my-first-dbt-project\dbt-env\scripts\python.exe
+[0m17:35:55.435398 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m17:35:55.750687 [info ] [MainThread]: Using profiles dir at C:\Users\caiov\.dbt
+[0m17:35:55.751687 [info ] [MainThread]: Using profiles.yml file at C:\Users\caiov\.dbt\profiles.yml
+[0m17:35:55.752668 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caiov\OneDrive - UCLA IT Services\Documentos\DataScience\Repositories\my-first-dbt-project\dbt_project.yml
+[0m17:35:55.754684 [info ] [MainThread]: adapter type: snowflake
+[0m17:35:55.755202 [info ] [MainThread]: adapter version: 1.7.1
+[0m17:35:55.757232 [info ] [MainThread]: Configuration:
+[0m17:35:55.758214 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:35:55.759211 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:35:55.760211 [info ] [MainThread]: Required dependencies:
+[0m17:35:55.761724 [debug] [MainThread]: Executing "git --help"
+[0m17:35:55.804297 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:35:55.804297 [debug] [MainThread]: STDERR: "b''"
+[0m17:35:55.805327 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:35:55.806304 [info ] [MainThread]: Connection:
+[0m17:35:55.807331 [info ] [MainThread]:   account: fpnqihh-bd59772
+[0m17:35:55.809053 [info ] [MainThread]:   user: CAIOVELASCO
+[0m17:35:55.810086 [info ] [MainThread]:   database: SNOWFLAKE_SAMPLE_DATA
+[0m17:35:55.811086 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m17:35:55.812086 [info ] [MainThread]:   role: COMPUTE_WH
+[0m17:35:55.813087 [info ] [MainThread]:   schema: TPCDS_SF100TCL
+[0m17:35:55.814247 [info ] [MainThread]:   authenticator: None
+[0m17:35:55.815279 [info ] [MainThread]:   private_key_path: None
+[0m17:35:55.816773 [info ] [MainThread]:   token: None
+[0m17:35:55.816773 [info ] [MainThread]:   oauth_client_id: None
+[0m17:35:55.817842 [info ] [MainThread]:   query_tag: None
+[0m17:35:55.818862 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:35:55.820262 [info ] [MainThread]:   host: None
+[0m17:35:55.821410 [info ] [MainThread]:   port: None
+[0m17:35:55.821917 [info ] [MainThread]:   proxy_host: None
+[0m17:35:55.822938 [info ] [MainThread]:   proxy_port: None
+[0m17:35:55.824950 [info ] [MainThread]:   protocol: None
+[0m17:35:55.825949 [info ] [MainThread]:   connect_retries: 1
+[0m17:35:55.826949 [info ] [MainThread]:   connect_timeout: None
+[0m17:35:55.827949 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:35:55.828953 [info ] [MainThread]:   retry_all: False
+[0m17:35:55.829950 [info ] [MainThread]:   insecure_mode: False
+[0m17:35:55.830938 [info ] [MainThread]:   reuse_connections: None
+[0m17:35:55.830938 [info ] [MainThread]: Registered adapter: snowflake=1.7.1
+[0m17:35:55.833621 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:35:55.834631 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:35:55.835634 [debug] [MainThread]: On debug: select 1 as id
+[0m17:35:55.835634 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:35:57.559679 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:35:57.560680 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:35:57.560680 [debug] [MainThread]: On debug: No close available on handle
+[0m17:35:57.561680 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:35:57.562680 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:35:57.563674 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\caiov\OneDrive - UCLA IT Services\Documentos\DataScience\Repositories\my-first-dbt-project\dbt_project.yml> not found
+
+[0m17:35:57.564674 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: fpnqihh-bd59772.snowflakecomputing.com:443. Role 'COMPUTE_WH' specified in the connect string does not exist or not authorized. Contact your local system administrator, or attempt to login with another role, e.g. PUBLIC.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:35:57.567670 [debug] [MainThread]: Command `dbt debug` failed at 17:35:57.567670 after 2.18 seconds
+[0m17:35:57.568670 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:35:57.568670 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:36:57.762581 | 8fbdb202-cf58-43d3-877b-4a85e86ccb59 ==============================
+[0m17:36:57.762581 [info ] [MainThread]: Running with dbt=1.7.7
+[0m17:36:57.768581 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'False', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\caiov\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m17:36:57.768581 [info ] [MainThread]: dbt version: 1.7.7
+[0m17:36:57.769578 [info ] [MainThread]: python version: 3.9.0
+[0m17:36:57.770569 [info ] [MainThread]: python path: c:\users\caiov\onedrive - ucla it services\documentos\datascience\repositories\my-first-dbt-project\dbt-env\scripts\python.exe
+[0m17:36:57.771580 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m17:36:58.060357 [info ] [MainThread]: Using profiles dir at C:\Users\caiov\.dbt
+[0m17:36:58.061359 [info ] [MainThread]: Using profiles.yml file at C:\Users\caiov\.dbt\profiles.yml
+[0m17:36:58.062359 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\caiov\OneDrive - UCLA IT Services\Documentos\DataScience\Repositories\my-first-dbt-project\dbt_project.yml
+[0m17:36:58.064347 [info ] [MainThread]: adapter type: snowflake
+[0m17:36:58.065357 [info ] [MainThread]: adapter version: 1.7.1
+[0m17:36:58.066367 [info ] [MainThread]: Configuration:
+[0m17:36:58.067348 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:36:58.068564 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:36:58.069867 [info ] [MainThread]: Required dependencies:
+[0m17:36:58.070891 [debug] [MainThread]: Executing "git --help"
+[0m17:36:58.110571 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:36:58.112354 [debug] [MainThread]: STDERR: "b''"
+[0m17:36:58.113375 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:36:58.114374 [info ] [MainThread]: Connection:
+[0m17:36:58.115391 [info ] [MainThread]:   account: fpnqihh-bd59772
+[0m17:36:58.116386 [info ] [MainThread]:   user: CAIOVELASCO
+[0m17:36:58.117386 [info ] [MainThread]:   database: SNOWFLAKE_SAMPLE_DATA
+[0m17:36:58.118386 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m17:36:58.120398 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:36:58.121386 [info ] [MainThread]:   schema: TPCDS_SF100TCL
+[0m17:36:58.122387 [info ] [MainThread]:   authenticator: None
+[0m17:36:58.123917 [info ] [MainThread]:   private_key_path: None
+[0m17:36:58.124951 [info ] [MainThread]:   token: None
+[0m17:36:58.125951 [info ] [MainThread]:   oauth_client_id: None
+[0m17:36:58.126961 [info ] [MainThread]:   query_tag: None
+[0m17:36:58.128955 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:36:58.129931 [info ] [MainThread]:   host: None
+[0m17:36:58.129931 [info ] [MainThread]:   port: None
+[0m17:36:58.130964 [info ] [MainThread]:   proxy_host: None
+[0m17:36:58.132586 [info ] [MainThread]:   proxy_port: None
+[0m17:36:58.133621 [info ] [MainThread]:   protocol: None
+[0m17:36:58.134620 [info ] [MainThread]:   connect_retries: 1
+[0m17:36:58.135993 [info ] [MainThread]:   connect_timeout: None
+[0m17:36:58.137062 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:36:58.138062 [info ] [MainThread]:   retry_all: False
+[0m17:36:58.139062 [info ] [MainThread]:   insecure_mode: False
+[0m17:36:58.141065 [info ] [MainThread]:   reuse_connections: None
+[0m17:36:58.142504 [info ] [MainThread]: Registered adapter: snowflake=1.7.1
+[0m17:36:58.144522 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:36:58.145537 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:36:58.145537 [debug] [MainThread]: On debug: select 1 as id
+[0m17:36:58.146547 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:36:58.972699 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.0 seconds
+[0m17:36:58.974455 [debug] [MainThread]: On debug: Close
+[0m17:36:59.142622 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:36:59.144618 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:36:59.145627 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\caiov\OneDrive - UCLA IT Services\Documentos\DataScience\Repositories\my-first-dbt-project\dbt_project.yml> not found
+
+[0m17:36:59.147621 [debug] [MainThread]: Command `dbt debug` failed at 17:36:59.147621 after 1.42 seconds
+[0m17:36:59.148626 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:36:59.148626 [debug] [MainThread]: Flushing usage events
